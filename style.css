@@ -21,10 +21,10 @@
     max-width: 1200px;
     height: 200px;
     margin-top: 2rem;
+    display: flex;
 }
 .div-grande{
     width: 700px;
-    background-color: lime;
 }
 .div-pesquisa{
     display: flex;
@@ -32,7 +32,6 @@
     gap : 0.6rem;
     width: 100%;
     align-items: center;
-    background-color: aqua;
 
 }
 .search_bar{
@@ -77,7 +76,6 @@
     justify-content: center;
 }
 .div-informaçoes{
-    background-color: bisque;
     padding: 2rem;
     display: flex;
     gap: 0.8rem;
