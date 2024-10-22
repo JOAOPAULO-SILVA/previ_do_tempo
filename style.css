@@ -125,3 +125,19 @@ width: 180px;
     flex-direction: column;
     border-radius: 15px;
 }
+ul{
+    flex-direction: row;
+    gap: 0,5rem;
+}
+
+li{
+    display: flex;
+    gap: 2rem;
+    background-color: lime;
+    justify-content: center;
+    max-width: 320px;
+    height: 30px;
+}
+.img-lista{
+    max-width: 50px;
+}
