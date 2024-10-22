@@ -21,6 +21,7 @@
   height: 200px;
   margin-top: 2rem;
   display: flex;
+  gap: 3rem;
 }
 .div-grande {
   width: 700px;
@@ -116,7 +117,6 @@
 .lista {
   background-color: #ffffff;
   margin-top: 3rem;
-  margin-left: 3rem;
   padding: 2rem;
   display: flex;
   flex-direction: column;
