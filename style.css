@@ -122,6 +122,7 @@
   flex-direction: column;
   border-radius: 40px;
   height: fit-content;
+  gap: 1rem;
 }
 
 .temp-semanal {
@@ -131,10 +132,9 @@
   align-items: center;
   /* height: 30px; */
 }
-.temp-maxima{
-    color:#2A394F;
+.temp-maxima {
+  color: #2a394f;
 }
-.temp-minima{
-    color: #8F8F8F;
-
+.temp-minima {
+  color: #8f8f8f;
 }
