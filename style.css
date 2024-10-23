@@ -1,38 +1,37 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-.container{
-    display: flex;
-    width: 100%;
-    height: 100dvh;
-    background-color: #E2EAF5;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+.container {
+  display: flex;
+  width: 100%;
+  height: 100dvh;
+  background-color: #e2eaf5;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.main{
-    max-width: 1200px;
-    height: 200px;
-    margin-top: 2rem;
-    display: flex;
+.main {
+  max-width: 1200px;
+  height: 200px;
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
 }
-.div-grande{
-    width: 700px;
+.div-grande {
+  width: 700px;
 }
-.div-pesquisa{
-    display: flex;
-    padding: 1rem;
-    gap : 0.6rem;
-    width: 100%;
-    align-items: center;
-
+.div-pesquisa {
+  display: flex;
+  padding: 1rem;
+  gap: 0.6rem;
+  width: 100%;
+  align-items: center;
 }
 .search_bar{
     background-color: #ffffff;
@@ -131,14 +130,10 @@ width: 180px;
 .img-info{
     max-width: 30px;
     max-height: 20px;
+=======
+.temp-maxima {
+  color: #2a394f;
 }
-
-.lista{
-    background-color: #FFFFFF;
-    margin-top: 3rem;
-    margin-left: 3rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    border-radius: 15px;
+.temp-minima {
+  color: #8f8f8f;
 }
