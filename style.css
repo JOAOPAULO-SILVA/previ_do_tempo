@@ -111,17 +111,25 @@ color:#8F8F8F;
 height: 120px;
 width: 180px;
 }
-.informações-informação-imagem{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 30px;
-    font-weight: 600;
-    color:#2A394F;
-    ;
+
+.lista {
+  background-color: #ffffff;
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  height: fit-content;
+  gap: 1rem;
+  font-weight: 18px;
 }
-#kmh{
-    font-size: 10px;
+
+.temp-semanal {
+  color: #8F8F8F;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
 #txt-kmh{
     display: flex;
@@ -130,10 +138,14 @@ width: 180px;
 .img-info{
     max-width: 30px;
     max-height: 20px;
-=======
+}
 .temp-maxima {
   color: #2a394f;
 }
 .temp-minima {
   color: #8f8f8f;
+}
+.img-lista{
+  background-color: lime;
+  
 }
