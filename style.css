@@ -5,7 +5,6 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
 .container {
   display: flex;
   width: 100%;
@@ -15,7 +14,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
-  color: #2A394F;
+  color: #2a394f;
 }
 
 .main {
@@ -35,13 +34,13 @@
   width: 100%;
   align-items: center;
 }
-#nome-site{
-  display:flex;
-  background: linear-gradient(90deg, #007DFE, #3AA2FF);
+#nome-site {
+  display: flex;
+  background: linear-gradient(90deg, #007dfe, #3aa2ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   gap: 5px;
-  font-family: 'Chillax', sans-serif;
+  font-family: "Chillax", sans-serif;
   font-size: 30px;
   font-weight: 600;
 }
@@ -73,14 +72,14 @@
   gap: 15rem;
   padding: 0 3rem;
 }
-#chance{
+#chance {
   color: #8f8f8f;
 }
-#city-name{
+#city-name {
   font-size: 50px;
   font-weight: 700;
 }
-#temp-num{
+#temp-num {
   font-size: 85px;
   font-weight: 700;
 }
@@ -104,12 +103,10 @@
   color: white;
 }
 .horarios-hora {
-
   font-size: 12px;
   text-align: center;
 }
 .horarios-temperatura {
-
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -138,15 +135,14 @@
   height: 120px;
   width: 180px;
 }
-.informações-informação-imagem{
-display: flex;
-align-items: center;
+.informações-informação-imagem {
+  display: flex;
+  align-items: center;
 }
 .img-info {
   max-width: 2rem;
   max-height: 2rem;
 }
-.
 .lista {
   background-color: #ffffff;
   margin-top: 3rem;
