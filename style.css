@@ -5,6 +5,10 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+header {
+  margin-bottom: 2.4rem;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -71,7 +75,7 @@
   width: 100%;
   gap: 15rem;
   padding: 0 3rem;
-  margin-bottom: 3rem;;
+  margin-bottom: 3rem;
 }
 #chance {
   color: #8f8f8f;
@@ -138,21 +142,20 @@
   height: 120px;
   width: 180px;
 }
-.numero-informação{
-  color: #2A394F;
+.numero-informação {
+  color: #2a394f;
   font-weight: 700;
   font-size: 2.7rem;
 }
 .informações-informação-imagem {
   display: flex;
   align-items: center;
-
 }
 .img-info {
   max-width: 2rem;
   max-height: 2rem;
 }
-.lista{
+.lista {
   background-color: #ffffff;
   margin-top: 3rem;
   padding: 2rem;
