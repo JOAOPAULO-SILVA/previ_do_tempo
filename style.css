@@ -71,6 +71,7 @@
   width: 100%;
   gap: 15rem;
   padding: 0 3rem;
+  margin-bottom: 3rem;;
 }
 #chance {
   color: #8f8f8f;
@@ -116,34 +117,42 @@
   height: 4rem;
 }
 .div-informaçoes {
-  padding: 2rem;
+  padding-top: 2rem;
   display: flex;
   gap: 0.8rem;
   justify-content: center;
+  font-weight: 500;
+  align-items: space-between;
 }
 .informações-informação {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  gap: 0.8rem 0;
+  gap: 0.8rem;
   background-color: #ffffff;
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  font-size: 10px;
+  font-size: 13px;
   color: #8f8f8f;
   height: 120px;
   width: 180px;
 }
+.numero-informação{
+  color: #2A394F;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
 .informações-informação-imagem {
   display: flex;
   align-items: center;
+
 }
 .img-info {
   max-width: 2rem;
   max-height: 2rem;
 }
-.lista {
+.lista{
   background-color: #ffffff;
   margin-top: 3rem;
   padding: 2rem;
@@ -164,6 +173,8 @@
 #txt-kmh {
   display: flex;
   align-items: center;
+  color: #2a394f;
+  font-weight: 700;
 }
 .temp-maxima {
   color: #2a394f;
@@ -174,5 +185,5 @@
 .img-lista {
   align-content: center;
   justify-content: space-around;
-  width: 70px;
+  width: 5rem;
 }
