@@ -29,25 +29,26 @@ body{
 }
 
 .main {
-  margin: auto;
+  margin: 50px 10px;
   max-width: 1200px;
   height: 100dvh;
   margin-top: 2rem;
   display: flex;
-  gap: 5%;
+  gap:20px;
   justify-content: center;
   align-items: center;
 }
 .div-grande {
   max-width: var(--width-divs-in-main);
-}
-.div-pesquisa {
-  display: flex;
-  padding: 1rem;
-  gap: 1rem;
-  width: 100%;
-  min-height: 30px;
-  align-items: center;
+  & .div-pesquisa {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    min-height: 30px;
+    align-items: center;
+  }
+  
 }
 #nome-site {
   display: flex;
@@ -141,6 +142,7 @@ body{
   max-width: var(--width-divs-in-main);
   margin-top: 2rem;
   display: flex;
+  flex-wrap: nowrap;
   gap: 0.8rem;
   justify-content: center;
   font-weight: 500;
@@ -182,7 +184,7 @@ body{
 }
 .lista {
   background-color: #ffffff;
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -221,6 +223,7 @@ body{
     height: 100%;
   }
   .lista{
+    margin-top: 1.5rem;
     width: 80%;
   }
   .div-grande{
@@ -228,9 +231,16 @@ body{
   }
   .div-informaçoes{
     width: 90vw;
-    gap: 2%;
+    gap: 10px;
+    flex-wrap: wrap;
   }
-  .informações-informação{
-    width: 25%;
+  .div-horarios{
+    overflow-x:auto;
   }
+  /* .informações-informação{
+    width: 25;
+   } */
+    .div-pesquisa{
+      flex-direction: column;
+    }
 }
