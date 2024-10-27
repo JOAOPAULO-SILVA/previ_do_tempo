@@ -108,7 +108,7 @@ body{
   max-height: 10rem;
 }
 .div-horarios {
-  padding: auto;
+  padding: clamp(10px,30px,40px);
   background: linear-gradient(to right, #007dfe, #3aa2ff);
   border-radius: 40px;
   max-width: var(--width-divs-in-main);
@@ -151,7 +151,7 @@ body{
   flex-direction: column;
   padding: 1rem;
   gap: 3%;
-  width: 25%; /*se precisar, trocar para 25%*/
+  width: 150px; /*se precisar, trocar para 25%*/
   background-color: #ffffff;
   justify-content: center;
   align-items: center;
@@ -190,14 +190,14 @@ body{
   height: fit-content;
   gap: 1rem;
   font-weight: 18px;
-  max-width: 300px;
+  max-width: 400px;
   min-width: 200px;
 }
 .temp-semanal {
   color: #8f8f8f;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between  ;
   gap: 2rem;
 }
 .temp-maxima {
@@ -210,18 +210,27 @@ body{
   align-content: center;
   justify-content: space-around;
   max-width: 5rem;
+  height: clamp(40px,70px,90px);
 }
 
 @media (max-width: 700px) {
   .main {
     flex-direction: column;
     width: 90vw;
-    gap:0
+    gap:0;
+    height: 100%;
   }
   .lista{
     width: 80%;
   }
   .div-grande{
     width: 90vw;
+  }
+  .div-informaçoes{
+    width: 90vw;
+    gap: 2%;
+  }
+  .informações-informação{
+    width: 25%;
   }
 }
